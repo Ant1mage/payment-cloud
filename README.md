@@ -1,1 +1,1 @@
-# course-cloud
+# payment-cloud
