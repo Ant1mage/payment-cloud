@@ -1,1 +1,1 @@
-# payment-cloud
+# Payment Cloud

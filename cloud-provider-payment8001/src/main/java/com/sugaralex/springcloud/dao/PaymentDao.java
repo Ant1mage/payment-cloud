@@ -1,12 +1,14 @@
-package com.atgugu.springcloud.dao;
+package com.sugaralex.springcloud.dao;
 
-import com.atgugu.springcloud.entities.Payment;
+import com.sugaralex.springcloud.entities.Payment;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
  * @author alexanderz
  */
 
+@Mapper
 public interface PaymentDao {
     /**
      * create
@@ -14,7 +16,6 @@ public interface PaymentDao {
      * @return id
      */
     public int create(Payment payment);
-
     /**
      * get payment
      * @param id payment id
