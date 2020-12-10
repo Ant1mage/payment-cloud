@@ -17,7 +17,6 @@ import javax.annotation.Resource;
 public class OrderController {
     //远程调用的 地址
     public static final String PAYMENT_URL = "http://localhost:8001";
-
     @Resource
     private RestTemplate restTemplate;
 
