@@ -10,6 +10,7 @@ import org.apache.ibatis.annotations.Param;
 public interface PaymentService {
     /**
      * create
+     *
      * @param payment payment entity
      * @return id
      */
@@ -17,6 +18,7 @@ public interface PaymentService {
 
     /**
      * get payment
+     *
      * @param id payment id
      * @return payment
      */
